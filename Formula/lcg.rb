@@ -2,16 +2,16 @@
 class Lcg < Formula
   desc "LaunchDarkly Code Generator to build custom flag wrappers"
   homepage "https://launchdarkly.com"
-  version "0.1.2"
+  version "0.1.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/launchdarkly-labs/lcg/releases/download/v0.1.2/lcg-private_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "49c22feedcd63687fc35fd4923fa329e4e69f84a508c8a379360b9c9248f1927"
+    url "https://github.com/launchdarkly-labs/lcg/releases/download/v0.1.3/lcg_0.1.3_Darwin_x86_64.tar.gz"
+    sha256 "1d961bd99ecae5db5fa7266e900de2ae45eab857d33ca4228b783105a8ad874d"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/launchdarkly-labs/lcg/releases/download/v0.1.2/lcg-private_0.1.2_Linux_x86_64.tar.gz"
-      sha256 "ad670958a68c47a636a42b8d9ef05b93829b411aa3f1ddfe3ea8ea580d7862fb"
+      url "https://github.com/launchdarkly-labs/lcg/releases/download/v0.1.3/lcg_0.1.3_Linux_x86_64.tar.gz"
+      sha256 "510b85d45a2f6be33173174acfe343b61fff243439e51c069f674eeaaa161306"
     end
   end
 
